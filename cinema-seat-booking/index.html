@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Cinema Seat Booking</title>
+  </head>
+  <body>
+    <div id="booking-app">
+      <h1 class="app-title">Cinema Booking</h1>
+
+      <div class="movie-select-wrap">
+        <label for="movie-sel">Now showing:</label>
+        <select id="movie-sel">
+          <option value="10"> Avatar the last Airbender — $10</option>
+          <option value="12"> Grave of the Fireflies — $12</option>
+          <option value="8"> Whiplash — $8</option>
+          <option value="9"> The Swordsman — $9</option>
+        </select>
+        <span class="arrow">▾</span>
+      </div>
+
+      <div class="legend">
+        <div class="legend-item"><div class="legend-seat ls-available"></div>Available</div>
+        <div class="legend-item"><div class="legend-seat ls-selected"></div>Selected</div>
+        <div class="legend-item"><div class="legend-seat ls-occupied"></div>Occupied</div>
+      </div>
+
+      <div class="screen-wrap">
+        <div class="screen-label">Screen</div>
+        <div class="screen"></div>
+      </div>
+
+      <div class="cinema" id="cinema"></div>
+
+      <div class="info-bar">
+        <div class="info-item">
+          <span class="info-label">Seats</span>
+          <span class="info-value" id="count">0</span>
+        </div>
+        <div class="info-divider"></div>
+        <div class="info-item">
+          <span class="info-label">Total</span>
+          <span class="info-value" id="total">$0</span>
+        </div>
+      </div>
+
+      <button class="clear-btn" id="clear-btn">Clear selection</button>
+    </div>
+
+    <script src="script.js"></script>
+
+  </body>
+</html>
