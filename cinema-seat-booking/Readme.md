@@ -98,5 +98,5 @@ Or simply double-click `index.html` — it's that easy!
 ---
 
 <p align="center">
-  Made with ❤️ and lots of ☕
+  Made By Me 
 </p>
