@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>The Cozy Spoon</title>
+  <style>
+    body {
+      font-family: "Segoe UI", sans-serif;
+      background-color: #fff8f0;
+      color: #333;
+      margin: 0;
+      padding: 0;
+    }
+
+    header {
+      background-color: #f2b279;
+      text-align: center;
+      padding: 20px;
+    }
+
+    header img {
+      width: 120px;
+      border-radius: 50%;
+    }
+
+    nav {
+      background-color: #f9d8b5;
+      padding: 10px;
+      text-align: center;
+    }
+
+    nav a {
+      margin: 0 20px;
+      text-decoration: none;
+      color: #333;
+      font-weight: bold;
+    }
+
+    main {
+      padding: 20px;
+    }
+
+    section {
+      margin-bottom: 40px;
+    }
+
+    article {
+      background-color: #fff;
+      border-radius: 10px;
+      box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+      padding: 15px;
+      margin: 15px 0;
+      text-align: center;
+    }
+
+    article img {
+      width: 100%;
+      max-width: 250px;
+      border-radius: 10px;
+      
+    }
+
+    form label {
+      display: block;
+      margin-top: 10px;
+      font-weight: bold;
+    }
+
+    input, textarea {
+      width: 100%;
+      max-width: 300px;
+      padding: 8px;
+      margin-top: 5px;
+      border-radius: 5px;
+      border: 1px solid #ccc;
+    }
+
+    input[type="submit"] {
+      background-color: #f2b279;
+      border: none;
+      color: white;
+      font-weight: bold;
+      cursor: pointer;
+      margin-top: 15px;
+      width: auto;
+      padding: 10px 20px;
+    }
+
+    footer {
+      text-align: center;
+      background-color: #f9d8b5;
+      padding: 15px;
+    }
+  </style>
+</head>
+
+<body>
+
+  <header>
+    <h1>The Cozy Spoon</h1>
+  </header>
+
+  <nav>
+    <a href="#menu">Menu</a>
+    <a href="#order-form">Order Form</a>
+    <a href="today-food.html">Today's Specials</a>
+  </nav>
+
+  <main>
+ 
+    <section id="menu">
+      <h2 align="center">Menu</h2>
+
+      <article>
+        <img src="https://tse2.mm.bing.net/th/id/OIP.yY8phhN0ndokO_UrfhsJewHaLH?cb=ucfimg2&ucfimg=1&rs=1&pid=ImgDetMain&o=7&rm=3" alt="Pasta Primavera">
+        <h3>Pasta Primavera</h3>
+        <p>A delicious mix of pasta, veggies, and herbs tossed in olive oil. <i>$12.99</i></p>
+      </article>
+
+      <article>
+        <img src="https://tse1.mm.bing.net/th/id/OIP.p-gxBToo0UJdu8kcHsbrXwHaE8?cb=ucfimg2&ucfimg=1&rs=1&pid=ImgDetMain&o=7&rm=3" alt="Grilled Chicken Sandwich">
+        <h3>Grilled Chicken Sandwich</h3>
+        <p>Juicy chicken breast with fresh greens and aioli on toasted ciabatta. <i>$10.99</i></p>
+      </article>
+
+      <article>
+        <img src="https://tse3.mm.bing.net/th/id/OIP.nimLX8QRX9LNz8M6Q3x6pAHaHa?cb=ucfimg2&ucfimg=1&rs=1&pid=ImgDetMain&o=7&rm=3" alt="Chocolate Lava Cake">
+        <h3>Chocolate Lava Cake</h3>
+        <p>Warm chocolate cake with a gooey center, served with vanilla ice cream. <i>$6.50</i></p>
+      </article>
+    </section>
+
+    
+    <section id="order-form">
+      <h2>Place Your Order</h2>
+      <form>
+        <label for="pasta">Pasta Primavera (Qty):</label>
+        <input type="number" id="pasta" name="pasta" min="0">
+
+        <label for="sandwich">Grilled Chicken Sandwich (Qty):</label>
+        <input type="number" id="sandwich" name="sandwich" min="0">
+
+        <label for="cake">Chocolate Lava Cake (Qty):</label>
+        <input type="number" id="cake" name="cake" min="0">
+
+        <h3>Add-ons & Sides</h3>
+        <label><input type="checkbox" name="side" value="fries"> Fries (+$2.50)</label>
+        <label><input type="checkbox" name="side" value="salad"> Side Salad (+$3.00)</label>
+
+        <h3>Drink Option</h3>
+        <label><input type="radio" name="drink" value="water"> Water</label>
+        <label><input type="radio" name="drink" value="soda"> Soda</label>
+        <label><input type="radio" name="drink" value="coffee"> Coffee</label>
+
+        <label for="requests">Special Requests:</label>
+        <textarea id="requests" name="requests" rows="4" placeholder="Any allergies or special instructions?"></textarea>
+
+        <input type="submit" value="Go To Checkout">
+      </form>
+    </section>
+  </main>
+
+  <footer>
+    <p>Made with love by <strong>Sadieq</strong></p>
+  </footer>
+
+</body>
+</html>
