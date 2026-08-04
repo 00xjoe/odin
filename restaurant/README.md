@@ -1,4 +1,4 @@
-#  The Cozy Spoon - Restaurant Website
+<center><h1>  The Cozy Spoon - Restaurant Website  </h1> </center> 
 
 
 <p align="center">
