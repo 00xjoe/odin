@@ -1,4 +1,4 @@
-# 🎬 Cinema Seat Booking App
+#  Cinema Seat Booking App
 
 <p align="center">
   <img src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white" alt="HTML5"/>
@@ -12,7 +12,7 @@
 
 ---
 
-## ✨ Features
+##  Features
 
 - 🎟️ **Dynamic Movie Selection** — Choose from multiple movies with different ticket prices
 - 💺 **Interactive Seats** — Click to select/deselect your perfect spot
@@ -26,7 +26,7 @@
 
 ---
 
-## 🛠️ Tech Stack
+##  Tech Stack
 
 | Technology | Purpose |
 |------------|---------|
@@ -34,11 +34,11 @@
 | **CSS3** | Styling & animations |
 | **Vanilla JS** | Interactive logic & local storage |
 
-> 💡 No frameworks, no dependencies — pure vanilla goodness!
+>  No frameworks, no dependencies — pure vanilla goodness!
 
 ---
 
-## 📁 Project Structure
+##  Project Structure
 
 ```
 cinema-seat-booking/
@@ -51,7 +51,7 @@ cinema-seat-booking/
 
 ---
 
-## 🚀 Getting Started
+##  Getting Started
 
 ```bash
 # Clone the repository
@@ -68,7 +68,7 @@ Or simply double-click `index.html` — it's that easy!
 
 ---
 
-## 🎮 How to Use
+##  How to Use
 
 1. **Pick a movie** from the dropdown menu
 2. **Click available seats** (green) to select them
@@ -77,7 +77,7 @@ Or simply double-click `index.html` — it's that easy!
 
 ---
 
-## 📊 Seat States
+##  Seat States
 
 | Color | State | Clickable? |
 |-------|-------|------------|
@@ -87,7 +87,7 @@ Or simply double-click `index.html` — it's that easy!
 
 ---
 
-## 🔮 Future Enhancements
+##  Future Enhancements
 
 - [ ] Save bookings to Local Storage
 - [ ] Dark/Light theme toggle
